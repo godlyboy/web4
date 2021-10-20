@@ -1,0 +1,97 @@
+html{
+    background: gray;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/21/15/52/koi-carp-3338735_960_720.png");
+}
+header{
+    background-color: black;
+    height: 110px;
+    box-shadow: 0 0 100px;
+}
+.navbar{
+    height: 110px;
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+
+}.header__text{
+     color: white;
+     font-style: initial;
+     font-size: 125%;
+     font-size: 5ch;
+ }
+.header__text span{
+    font-style: initial;
+    font-size: 200%;
+}
+a{
+    font-weight: 700;
+    color: black;
+}
+.menu{
+    padding-left: 0;
+}
+.menu li{
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    font-size: 3ch;
+    border: 0.5px solid ;
+}
+.menu a{
+    display: block;
+}
+.menu a span{
+    font-size: 100%
+}
+.menu a:hover{
+    color: red;
+    background-color: black;
+    transition: 0.3s linear;
+}
+.body{
+    background-color: grey;
+}
+.body a:hover{
+    background-color: lightslategray;
+}
+.form{
+    background-color: grey;
+    order: 2;
+}
+.tabl{
+    background-color: grey;
+    order: 3;
+}
+table,th,td{
+    border: 0.5px solid ;
+    border-color: white;
+    text-align: center;
+
+}
+tbody tr:nth-child(odd){
+    background-color:grey;
+}
+tbody tr:nth-child(even){
+    background-color:white;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    box-shadow: 0 0 100px;
+}
+.footer__text{
+    color: white;
+    letter-spacing: 3px;
+}
